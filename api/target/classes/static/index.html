@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Food Ordering System</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">🍴</span>
+      <div>
+        <strong>Food Ordering</strong>
+        <small>Customer Web App</small>
+      </div>
+    </div>
+
+    <button id="cartButton" type="button">
+      Cart <span id="cartCount">0</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Welcome back</p>
+        <h1 id="customerTitle">John Doe</h1>
+        <p>Browse menu, add items, checkout, and track your food order.</p>
+
+        <button type="button" onclick="document.getElementById('menu').scrollIntoView({behavior:'smooth'})">
+          Browse Menu
+        </button>
+      </div>
+
+      <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=900" alt="Food plate">
+    </section>
+
+    <section class="panel customer">
+      <h2>Customer Information</h2>
+
+      <div class="grid two">
+        <label>
+          Name
+          <input id="name" value="John Doe">
+        </label>
+
+        <label>
+          Email
+          <input id="email" value="john@example.com">
+        </label>
+
+        <label>
+          Phone
+          <input id="phone" value="09123456789">
+        </label>
+
+        <label>
+          Address
+          <input id="address" value="123 Main Street">
+        </label>
+      </div>
+    </section>
+
+    <section id="menu" class="panel">
+      <div class="section-head">
+        <h2>Popular Menu</h2>
+
+        <select id="categoryFilter">
+          <option value="ALL">All categories</option>
+        </select>
+      </div>
+
+      <div id="menuGrid" class="menu-grid"></div>
+    </section>
+
+    <section id="cartSection" class="panel checkout">
+      <h2>Your Cart & Checkout</h2>
+
+      <div id="cartItems" class="cart-items"></div>
+
+      <div class="total-row">
+        <span>Total</span>
+        <strong id="cartTotal">₱0.00</strong>
+      </div>
+
+      <div class="payment">
+        <label>
+          <input type="radio" name="paymentMethod" value="CASH_ON_DELIVERY" checked>
+          Cash on Delivery
+        </label>
+
+        <label>
+          <input type="radio" name="paymentMethod" value="ONLINE_PAYMENT">
+          Online Payment
+        </label>
+      </div>
+
+      <button id="placeOrderBtn" type="button" onclick="placeOrder()">
+        Place Order
+      </button>
+    </section>
+
+    <section id="orderConfirmation" class="panel confirmation hidden" style="display: none;">
+      <div class="check">✓</div>
+
+      <h2>Thank you!</h2>
+      <p>Your order has been placed.</p>
+
+      <p>
+        <strong>Order ID:</strong>
+        <span id="orderIdText"></span>
+      </p>
+
+      <p>
+        <strong>Status:</strong>
+        <span id="orderStatusText"></span>
+      </p>
+
+      <button id="viewReceiptButton" type="button" onclick="viewReceipt(lastOrderId)">
+        View Receipt
+      </button>
+
+      <pre id="receiptBox" class="receipt"></pre>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
