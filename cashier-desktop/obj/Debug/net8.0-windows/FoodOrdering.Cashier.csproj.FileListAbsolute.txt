@@ -1,0 +1,14 @@
+C:\Users\Admin\food-ordering-system\cashier-desktop\bin\Debug\net8.0-windows\FoodOrdering.Cashier.exe
+C:\Users\Admin\food-ordering-system\cashier-desktop\bin\Debug\net8.0-windows\FoodOrdering.Cashier.deps.json
+C:\Users\Admin\food-ordering-system\cashier-desktop\bin\Debug\net8.0-windows\FoodOrdering.Cashier.runtimeconfig.json
+C:\Users\Admin\food-ordering-system\cashier-desktop\bin\Debug\net8.0-windows\FoodOrdering.Cashier.dll
+C:\Users\Admin\food-ordering-system\cashier-desktop\bin\Debug\net8.0-windows\FoodOrdering.Cashier.pdb
+C:\Users\Admin\food-ordering-system\cashier-desktop\obj\Debug\net8.0-windows\FoodOrdering.Cashier.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\food-ordering-system\cashier-desktop\obj\Debug\net8.0-windows\FoodOrdering.Cashier.AssemblyInfoInputs.cache
+C:\Users\Admin\food-ordering-system\cashier-desktop\obj\Debug\net8.0-windows\FoodOrdering.Cashier.AssemblyInfo.cs
+C:\Users\Admin\food-ordering-system\cashier-desktop\obj\Debug\net8.0-windows\FoodOrdering.Cashier.csproj.CoreCompileInputs.cache
+C:\Users\Admin\food-ordering-system\cashier-desktop\obj\Debug\net8.0-windows\FoodOrdering.Cashier.dll
+C:\Users\Admin\food-ordering-system\cashier-desktop\obj\Debug\net8.0-windows\refint\FoodOrdering.Cashier.dll
+C:\Users\Admin\food-ordering-system\cashier-desktop\obj\Debug\net8.0-windows\FoodOrdering.Cashier.pdb
+C:\Users\Admin\food-ordering-system\cashier-desktop\obj\Debug\net8.0-windows\FoodOrdering.Cashier.genruntimeconfig.cache
+C:\Users\Admin\food-ordering-system\cashier-desktop\obj\Debug\net8.0-windows\ref\FoodOrdering.Cashier.dll
